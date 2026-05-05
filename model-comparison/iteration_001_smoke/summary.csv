@@ -1,0 +1,6 @@
+Model,TrainCount,HighTest_MAPE_Mean,HighTest_MAPE_Std,LowHoldout_MAPE_Mean,Train_MAPE_Mean,SelectionReason,Seed,SeedJitter,ParamsJSON
+BaseGEP,3,39.0673465770981,NaN,8.56720572752469,NaN,middle_quantile_selected,1311,2361,"{""popSize"":16,""nGenerations"":3,""numGenes"":3,""headLen"":8,""ridgeLambda"":0.05}"
+SVR_RBF,3,39.5010453430782,NaN,7.7179843417533,NaN,middle_quantile_selected,1211,2260,"{""seedOnly"":true}"
+RD_GEP,3,42.4190039994752,1.09738746134815,6.32481586441929,NaN,middle_quantile_selected,1211,2260,"{""popSize"":12,""nGenerations"":3,""ridgeLambda"":0.02,""wFrontier"":0.6,""wDeriv"":0.02,""maxCorrectionGenes"":3,""frontierPatience"":5}"
+Kriging,3,44.2749742507291,NaN,7.24981345443457,NaN,middle_quantile_selected,1211,2260,"{""seedOnly"":true}"
+MLP,3,53.0948899210917,NaN,8.07062216493115,NaN,middle_quantile_selected,1311,2361,"{""seedOnly"":true}"
