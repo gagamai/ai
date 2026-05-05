@@ -1,0 +1,19 @@
+{
+  "mode": "final_core",
+  "createdAt": "2026-05-06 03:49:25",
+  "primaryMetric": "HighTest_MAPE_Mean",
+  "featureColumns": [1, 2, 3, 4],
+  "tempColumn": 5,
+  "targetColumn": 6,
+  "lowTempRatio": 0.75,
+  "useFixedTempSplit": false,
+  "trainSamplingMode": "frontier_biased",
+  "frontierBiasFraction": 0.7,
+  "highTestPick": "coldest",
+  "stableImprovementRatio": 0.12,
+  "stableAbsoluteTolerance": 0.3,
+  "stableRelativeTolerance": 0.15,
+  "nRepeats": 20,
+  "sequence": [20, 30, 40],
+  "selectionRule": "monotone real locked points; middle 40-60 percentile except final point"
+}
