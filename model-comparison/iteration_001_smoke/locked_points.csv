@@ -1,0 +1,11 @@
+Model,TrainCount,TrialIndex,Seed,BaseSplitSeed,BaseModelSeed,SeedJitter,ParamsJSON,HighTest_MAPE_Mean,HighTest_MAPE_Std,HighTest_MAPE_Median,LowHoldout_MAPE_Mean,Train_MAPE_Mean,SequenceIndex,IsFeasible,Locked,SelectionReason,PreviousLockedHighTest_MAPE_Mean,ElapsedSeconds,ErrorMessage,Success
+RD_GEP,3,1,1211,117,531,2260,"{""popSize"":12,""nGenerations"":3,""ridgeLambda"":0.02,""wFrontier"":0.6,""wDeriv"":0.02,""maxCorrectionGenes"":3,""frontierPatience"":5}",42.4190039994752,1.09738746134815,42.4190039994752,6.32481586441929,NaN,1,1,1,middle_quantile_selected,Inf,0.8503249,,1
+RD_GEP,5,2,1385,134,562,2467,"{""popSize"":16,""nGenerations"":3,""ridgeLambda"":0.05,""wFrontier"":0.8,""wDeriv"":0.05,""maxCorrectionGenes"":4,""frontierPatience"":6}",35.3742132965865,40.1513461033915,35.3742132965865,4.31247302203819,NaN,2,1,1,final_best_selected,42.4190039994752,0.108052,,1
+BaseGEP,3,2,1311,134,562,2361,"{""popSize"":16,""nGenerations"":3,""numGenes"":3,""headLen"":8,""ridgeLambda"":0.05}",39.0673465770981,NaN,39.0673465770981,8.56720572752469,NaN,1,1,1,middle_quantile_selected,Inf,0.0868543,,1
+BaseGEP,5,2,1385,134,562,2467,"{""popSize"":16,""nGenerations"":3,""numGenes"":3,""headLen"":8,""ridgeLambda"":0.05}",27.1642466500374,NaN,27.1642466500374,1.67481887816954,NaN,2,1,1,final_best_selected,39.0673465770981,0.0503881,,1
+Kriging,3,1,1211,117,531,2260,"{""seedOnly"":true}",44.2749742507291,NaN,44.2749742507291,7.24981345443457,NaN,1,1,1,middle_quantile_selected,Inf,0.5315092,,1
+Kriging,5,NaN,NaN,NaN,NaN,NaN,"{}",NaN,NaN,NaN,NaN,NaN,2,0,0,skip_due_to_no_monotonic_candidate,44.2749742507291,0,skip_due_to_no_monotonic_candidate,0
+MLP,3,2,1311,134,562,2361,"{""seedOnly"":true}",53.0948899210917,NaN,53.0948899210917,8.07062216493115,NaN,1,1,1,middle_quantile_selected,Inf,0.1417162,,1
+MLP,5,NaN,NaN,NaN,NaN,NaN,"{}",NaN,NaN,NaN,NaN,NaN,2,0,0,skip_due_to_no_monotonic_candidate,53.0948899210917,0,skip_due_to_no_monotonic_candidate,0
+SVR_RBF,3,1,1211,117,531,2260,"{""seedOnly"":true}",39.5010453430782,NaN,39.5010453430782,7.7179843417533,NaN,1,1,1,middle_quantile_selected,Inf,0.1515375,,1
+SVR_RBF,5,NaN,NaN,NaN,NaN,NaN,"{}",NaN,NaN,NaN,NaN,NaN,2,0,0,skip_due_to_no_monotonic_candidate,39.5010453430782,0,skip_due_to_no_monotonic_candidate,0
