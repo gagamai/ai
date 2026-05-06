@@ -1,0 +1,21 @@
+{
+  "createdAt": "2026-05-06 15:42:07",
+  "profile": "boundary75",
+  "target": "FREQ1",
+  "featureColumns": [1, 2, 3, 4],
+  "tempColumn": 5,
+  "targetColumn": 6,
+  "sampleCounts": [5, 8, 11, 14, 17, 20, 25, 30],
+  "nRepeats": 20,
+  "lowTempRatio": 0.75,
+  "highTestPick": "coldest",
+  "highTestCount": 8,
+  "fixedHighTestIndices": [84, 85, 86, 87, 88, 89, 90, 91],
+  "lowHoldoutCount": 8,
+  "trainSamplingMode": "frontier_biased",
+  "frontierRatioWithinTrain": 0.30,
+  "frontierBiasSchedule": {"N5": 0.20, "N8": 0.30, "N11": 0.40, "N14": 0.45, "N17": 0.50, "N20": 0.55, "N25": 0.60, "N30": 0.60},
+  "disasterMAPEThreshold": 100,
+  "extremeFailureMAPEThreshold": 1000,
+  "primaryMetric": "Clean_HighTest_MAPE_Mean"
+}
