@@ -1,0 +1,29 @@
+{
+  "createdAt": "2026-05-06 16:30:55",
+  "target": "FREQ1",
+  "featureColumns": [1, 2, 3, 4],
+  "tempColumn": 5,
+  "targetColumn": 6,
+  "boundaryTemp": 240,
+  "lowDomain": "T <= 240, samples 1-50",
+  "forceTrainIndex": 50,
+  "forceTrainTemperature": 239.88674,
+  "trainCounts": [20, 30],
+  "nRepeats": 20,
+  "lowHoldoutCount": 8,
+  "highTestCount": 8,
+  "frontierPoolFraction": 0.40,
+  "frontierBias": {"N20": 0.50, "N30": 0.60},
+  "frontierRatioWithinTrain": 0.30,
+  "disasterMAPEThreshold": 100,
+  "extremeFailureMAPEThreshold": 1000,
+  "primaryMetric": "Clean_HighTest_MAPE_Mean",
+  "gapBands": [
+    {"band": "G20", "threshold": 260, "indices": "62-69", "gap": 20.61009},
+    {"band": "G30", "threshold": 270, "indices": "68-75", "gap": 30.39450},
+    {"band": "G40", "threshold": 280, "indices": "75-82", "gap": 40.13208},
+    {"band": "G50", "threshold": 290, "indices": "83-90", "gap": 50.40487},
+    {"band": "G62", "threshold": 300, "indices": "91-98", "gap": 62.08186},
+    {"band": "G80", "threshold": 320, "indices": "97-104", "gap": 80.32735}
+  ]
+}
