@@ -1,0 +1,28 @@
+{
+  "createdAt": "2026-05-06 11:46:58",
+  "target": "FREQ1",
+  "featureColumns": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "tempColumn": 5,
+  "targetColumn": 6,
+  "sampleCounts": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "nRepeats": 20,
+  "lowTempRatio": 0.75,
+  "highTestPick": "coldest",
+  "highTestCount": 8,
+  "lowHoldoutCount": 8,
+  "trainSamplingMode": "frontier_biased",
+  "defaultFrontierBiasFraction": 0.7,
+  "primaryMetric": "HighTest_MAPE_Mean"
+}
